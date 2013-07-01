@@ -12,9 +12,9 @@ Passos a seguir per desplegar
 
   2) Modificar el codi de la manera oportuna.
 
-  3) Compilar el codi amb ant ``ant dist``. 
+  3) Compilar el codi amb ant: ``ant dist``. 
   
-  4) No s'ha trobat la manera de poder desplegar directament el jar que es genera, així que anem a build/ a 
+  4) No s'ha trobat la manera de poder desplegar directament el jar que es genera, així que anem a ``build/`` a 
   cercar les classes que s'hagin modificat i les posem al jar dins ``WEB-INF/lib/oaicat.jar`` del servidor.
   
   5) Reiniciem l'aplicació.
